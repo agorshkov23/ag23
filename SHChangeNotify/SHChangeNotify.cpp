@@ -1,5 +1,5 @@
 #include <Shlobj.h>
 
 int main () {
-	SHChangeNotify (SHCNE_ALLEVENTS, SHCNF_PATH, "C:\\", NULL);
+	SHChangeNotify (SHCNE_ASSOCCHANGED, SHCNF_IDLIST, "C:\\", NULL);
 }
