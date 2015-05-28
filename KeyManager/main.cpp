@@ -2,12 +2,12 @@
 #include <iostream>
 using namespace std;
 
-UINT SendKeyboardInput(WORD wVk) {
-	INPUT input = { 0 };
-	input.type = INPUT_KEYBOARD;
-	input.ki.wVk = wVk;
+// UINT SendKeyboardInput(WORD wVk) {
+	// INPUT input = { 0 };
+	// input.type = INPUT_KEYBOARD;
+	// input.ki.wVk = wVk;
 
-}
+// }
 
 int main () {
 	if (!RegisterHotKey(NULL, 1, MOD_ALT | MOD_WIN, VK_UP))
